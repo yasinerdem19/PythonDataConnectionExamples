@@ -1,6 +1,3 @@
-class my_class(object):
-    import pandas as pd
-
 url= "https://people.sc.fsu.edu/~jburkardt/data/csv/cities.csv"
 df=pd.read_csv(url)
 headers=["aaaaa","bbbb","c","d","e","f","g","h","i","j"]
